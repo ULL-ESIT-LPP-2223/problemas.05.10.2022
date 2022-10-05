@@ -4,7 +4,8 @@ Para calcular el mcd de a y b comprobar si a y b son iguales.
 Si lo son      devolver uno de ellos y parar
 En otro caso   reemplazar el mayor por la diferencia entre ambos 
                y repetir
-               
+
+'''c               
 int gcd(int a, int b) {
   while (a != b) {
     if (a > b) a = a - b;
@@ -12,3 +13,4 @@ int gcd(int a, int b) {
   }
   return a;
 }
+'''
